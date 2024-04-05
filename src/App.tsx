@@ -1,9 +1,10 @@
 import "./App.scss";
+import Docs from "./pages/Docs";
 
 function App() {
   return (
     <>
-      <div>Hello</div>
+      <Docs />
     </>
   );
 }
