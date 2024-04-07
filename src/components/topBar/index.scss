@@ -1,0 +1,29 @@
+.top-bar {
+  width: 100%;
+  background: whitesmoke;
+
+  .topBar-left {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 15px;
+  }
+
+  .docs-icon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+
+  .top-image {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 60px;
+    border-radius: 50%;
+  }
+
+  .top-title {
+    font-size: 24px;
+  }
+}

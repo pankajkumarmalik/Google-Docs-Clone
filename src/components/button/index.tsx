@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { Button } from "antd";
 
-type ModalProps = {
+type ButtonProps = {
   title: string;
   handleLogin: () => void;
 };
 
-const ModalComponent: React.FC<ModalProps> = ({
+const ButtonComponent: React.FC<ButtonProps> = ({
   title,
   handleLogin,
-}: ModalProps) => {
+}: ButtonProps) => {
   return (
     <>
       <Button type="primary" onClick={handleLogin}>
@@ -19,4 +19,4 @@ const ModalComponent: React.FC<ModalProps> = ({
   );
 };
 
-export default ModalComponent;
+export default ButtonComponent;

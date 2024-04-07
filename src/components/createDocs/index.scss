@@ -1,0 +1,19 @@
+.new-doc-container {
+  background-color: rgba(228, 226, 226, 0.668);
+  display: flex;
+  justify-content: center;
+
+  .new-doc-inner {
+    width: 70%;
+
+    .start-docs {
+      width: 150px;
+      height: 200px;
+      cursor: pointer;
+    }
+
+    .doc-title {
+      margin-top: 5px;
+    }
+  }
+}
