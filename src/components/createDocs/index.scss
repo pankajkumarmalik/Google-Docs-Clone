@@ -10,6 +10,12 @@
       width: 150px;
       height: 200px;
       cursor: pointer;
+      border: 1px solid #c0bdbd;
+      border-radius: 3px;
+    }
+
+    .start-docs:hover {
+      border: 1px solid #5689d6;
     }
 
     .doc-title {
